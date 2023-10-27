@@ -1,0 +1,36 @@
+#home .post{
+    display: block;
+    margin: 30px 0;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    z-index: 0;
+    transition: 0.25s;
+}
+#home p{
+    margin: 10px 0;
+}
+#home a.deploy{
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 0;
+    border: 1px solid #140D0D;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    z-index: 1;
+    transition: 0.25s;
+    background-color: white;
+    color: #140D0D;
+    cursor: grab;
+}
+#home .post:hover{
+    border: 1px solid #140D0D;
+    color: #140D0D;
+    background-color: white;
+}
+#home .post:hover > .deploy{
+    border: 1px solid white;
+    color: white;
+    background-color: #140D0D;
+}

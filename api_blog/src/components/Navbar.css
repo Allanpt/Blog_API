@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #140D0D;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#links-nav{
+    display: flex;
+    gap: 15px;
+}
+#links-nav a:hover{
+    font-weight: bold;
+    transition: 0.35s;
+}
+.new-btn{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.new-btn:hover{
+    border: 1px solid rgb(39, 25, 25);
+    color: rgb(39, 25, 25);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
