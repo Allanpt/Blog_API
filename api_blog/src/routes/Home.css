@@ -7,7 +7,18 @@
     z-index: 0;
     transition: 0.25s;
 }
-#home p{
+#home h1{
+    text-align: center;
+}
+#home .header{
+    display: flex;
+    justify-content: space-between;
+}
+#home .languages{
+    display: flex;
+    flex-direction: column;
+}
+#home p.description{
     margin: 10px 0;
 }
 #home a.deploy{
@@ -34,3 +45,4 @@
     color: white;
     background-color: #140D0D;
 }
+

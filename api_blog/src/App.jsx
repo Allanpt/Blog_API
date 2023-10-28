@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <div className="container">
         <Outlet />
-        <h1>Blog React</h1>
+        <h1>GitHub React</h1>
       </div>
     </div>
   )
