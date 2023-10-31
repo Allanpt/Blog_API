@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar">
         <h2>
-            <Link to={"/"}>Repositórios</Link>
+            <Link to={"/Repositories_API/"}>Repositórios</Link>
         </h2>
     </nav>
   )
