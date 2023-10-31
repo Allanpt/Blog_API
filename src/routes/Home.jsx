@@ -9,9 +9,9 @@ function Home() {
 
     const [posts, setPosts] = useState([])
 
-    const getPosts = async() => {
+    const getPosts = async(page = 1) => {
         try {
-            const response = await axios.get("https://api.github.com/users/Allanpt/repos?page=${page}&per_page=100", {
+            const response = await axios.get(`https://api.github.com/users/Allanpt/repos?page=${page}&per_page=100`, {
                 headers: {
                     Authorization: `Bearer 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`
                 }
